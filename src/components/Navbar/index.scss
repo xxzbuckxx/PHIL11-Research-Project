@@ -1,0 +1,24 @@
+.navbar__container {
+  h1 {
+    padding: 0;
+    margin: 0.5em 0;
+
+    font-weight: bold;
+    font-size: 5em;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0;
+
+    font-weight: normal;
+    font-style: italic;
+    font-size: 3em;
+  }
+
+  h3 {
+    text-emphasis: none;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,10 @@
+.app {
+  // border: 5px solid red;
+
+  &__container {
+    // border: 1px solid blue;
+    max-width: 900px;
+    padding: 2em;
+    margin: 4em auto;
+  }
+}
