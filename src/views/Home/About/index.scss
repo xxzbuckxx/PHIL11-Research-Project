@@ -1,3 +1,29 @@
 .about__container {
-  border: 1px solid green;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+
+  &--left {
+    max-width: 30em;
+
+    p {
+      margin-left: 5em;
+      font-size: 1.2em;
+    }
+  }
+
+  &--right {
+    flex-grow: 1;
+    max-width: 20em;
+    border: 1px solid blue;
+
+    img {
+      object-fit: cover;
+      max-width: 100%;
+      min-height: 100%;
+    }
+  }
 }
