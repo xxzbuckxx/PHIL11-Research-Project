@@ -11,9 +11,9 @@ const About: React.FC<AboutProps> = (props: AboutProps) => {
   const { aboutRef } = props;
 
   return (
-    <div className="about__container">
+    <div className="about__container" ref={aboutRef}>
       <div className="about__container--left">
-        <h1 ref={aboutRef}>
+        <h1>
           <i className="fa-solid fa-magnifying-glass"></i> Who is David Chalmer?
         </h1>
         <p>

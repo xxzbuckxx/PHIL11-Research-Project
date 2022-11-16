@@ -1,9 +1,18 @@
 .navbar__container {
-  margin: 30em 5em;
+  margin: 3em 5em;
+
+  &--gif {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
 
   h1 {
     padding: 0;
-    margin: 0.5em 0;
+    line-height: 0.9em;
+    margin: 2em 0 0 0;
 
     font-weight: bold;
     font-size: 5em;
@@ -13,6 +22,7 @@
     padding: 0;
     margin: 0;
 
+    line-height: 0.9em;
     font-weight: normal;
     font-style: italic;
     font-size: 3em;
@@ -22,11 +32,11 @@
     text-emphasis: none;
     font-size: 1.5em;
     font-weight: normal;
+    margin-top: 0.5em;
   }
 
   &--downArrow {
     font-size: 5em;
-    margin-right: 1em;
     width: 1em;
     float: right;
 

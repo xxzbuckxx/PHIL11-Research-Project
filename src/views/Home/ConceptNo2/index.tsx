@@ -5,7 +5,7 @@ import "./index.scss";
 const ConceptNo2: React.FC = () => {
   return (
     <div className="conceptno2__container">
-      <h1>Concept 2</h1>
+      <h1>;~`--. Concept 2 -*_.^-</h1>
     </div>
   );
 };
