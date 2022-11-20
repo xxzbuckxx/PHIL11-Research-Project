@@ -1,8 +1,84 @@
 .conceptno1__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+
   margin-top: 10em;
-  border: 1px solid red;
+  // border: 1px solid red;
 
   h1 {
     text-align: center;
+    font-size: 2em;
+  }
+
+  &--fundamentals__container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10em;
+
+
+    img {
+      width: 15%;
+      transition: width ease 300ms;
+      // &.special {}
+
+      &:hover {
+        width: 25%;
+      }
+    }
+
+  }
+
+  p {
+    max-width: 75%;
+    margin: 1em auto;
+
+    font-size: 2em;
+    text-align: center;
+  }
+
+  &--shirt-explanation__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 4em;
+
+    img {
+      max-width: 40%;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7em;
+
+      h4 {
+        text-align: center;
+        margin: 0px;
+        font-size: 3em;
+      }
+    }
+  }
+
+  &--class-connection__container {
+    border: 6px solid pink;
+    padding: 2em;
+
+    h2 {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    p {
+      font-size: 2em;
+    }
+
   }
 }

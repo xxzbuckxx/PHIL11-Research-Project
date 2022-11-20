@@ -17,9 +17,7 @@ function App() {
     <div className="app">
       <div className="app__container">
         <Navbar scrollClick={handleScrollClick} />
-        <FadeInWhenVisible>
-          <Home aboutRef={aboutRef} />
-        </FadeInWhenVisible>
+        <Home aboutRef={aboutRef} />
       </div>
     </div>
   );

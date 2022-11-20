@@ -10,17 +10,14 @@ export interface HomeProps {
 
 const Home: React.FC<HomeProps> = (props: HomeProps) => {
   const { aboutRef } = props;
+
   return (
-    <div className="home__container">
+    <div className="home__container" ref={aboutRef}>
       <FadeInWhenVisible>
-        <About aboutRef={aboutRef} />
+        <About />
       </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <ConceptNo1 />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <ConceptNo2 />
-      </FadeInWhenVisible>
+      <ConceptNo1 />
+      <ConceptNo2 />
     </div>
   );
 };

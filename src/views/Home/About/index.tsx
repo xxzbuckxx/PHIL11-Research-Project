@@ -3,15 +3,9 @@ import chalmerPhoto from "/davidchalmers.jpg";
 
 import "./index.scss";
 
-export interface AboutProps {
-  aboutRef: React.MutableRefObject<any>;
-}
-
-const About: React.FC<AboutProps> = (props: AboutProps) => {
-  const { aboutRef } = props;
-
+const About: React.FC = () => {
   return (
-    <div className="about__container" ref={aboutRef}>
+    <div className="about__container">
       <div className="about__container--left">
         <h1>
           <i className="fa-solid fa-magnifying-glass"></i> Who is David Chalmer?
