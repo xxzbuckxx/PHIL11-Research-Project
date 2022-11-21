@@ -13,7 +13,7 @@ const Connection = () => {
         This philosphical school of thought focuses on first person point of
         view or how things are percieved. In PHIL11, we studied a few of the
         pioneers of this way of thinking. For example, David Hume focused on
-        explaing the unreliability of beliefs, and how the come from
+        explaing the unreliability of beliefs, and how they come from
         impressions. Additionally, Rene Descartes used analogy of wax melting to
         explain how our perceptions and experiences are faulty at describing a
         given phenomenon. Although these thought conclusions may seem unrelated
