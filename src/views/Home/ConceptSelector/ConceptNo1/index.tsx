@@ -7,12 +7,13 @@ import imgBrain from "/fundamental-brain.png";
 import imgShirt from "/laws-shirt.png";
 
 import "./index.scss";
-import FadeInWhenVisible from "../../../components/FadeInWhenVisible";
+import FadeInWhenVisible from "../../../../components/FadeInWhenVisible";
 
 const ConceptNo1: React.FC = () => {
   return (
     <div className="conceptno1__container">
-      <h1> - *-.;^ Consciousness is Fundamental --&_./ </h1>
+      <h1>Consciousness is Fundamental</h1>
+
       <FadeInWhenVisible>
         <div className="conceptno1__container--fundamentals__container">
           <img src={imgAtom} />
@@ -26,6 +27,7 @@ const ConceptNo1: React.FC = () => {
           fundamental building block of the universe.
         </p>
       </FadeInWhenVisible>
+
       <FadeInWhenVisible>
         <p>
           <i>-- Why? --</i>
@@ -45,17 +47,8 @@ const ConceptNo1: React.FC = () => {
               The laws of the other fundamental elements are so simple they can
               be explained on the front of a t-shirt.
             </p>
-            <p>
-              The same should apply for the fundamental element of conciousness.
-            </p>
+            <p>The same should apply for conciousness.</p>
           </div>
-        </div>
-      </FadeInWhenVisible>
-
-      <FadeInWhenVisible>
-        <div className="conceptno1__container--class-connection__container">
-          <h2>How Does this Connect Back to Intro to Philosophy?</h2>
-          <p>Well basically it does.</p>
         </div>
       </FadeInWhenVisible>
     </div>

@@ -3,11 +3,9 @@ import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 
 import "./App.scss";
-import FadeInWhenVisible from "./components/FadeInWhenVisible";
-import ConceptNo1 from "./views/Home/ConceptNo1";
 
 function App() {
-  const aboutRef = useRef<HTMLHeadElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
 
   function handleScrollClick() {
     aboutRef.current!.scrollIntoView({ behavior: "smooth" });

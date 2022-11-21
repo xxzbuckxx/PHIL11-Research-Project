@@ -1,8 +1,8 @@
 import React from "react";
-import FadeInWhenVisible from "../../components/FadeInWhenVisible";
 import About from "./About";
-import ConceptNo1 from "./ConceptNo1";
-import ConceptNo2 from "./ConceptNo2";
+import ConceptSelector from "./ConceptSelector";
+import Connection from "./Connection";
+import Sources from "./Sources";
 
 export interface HomeProps {
   aboutRef: React.MutableRefObject<any>;
@@ -13,11 +13,10 @@ const Home: React.FC<HomeProps> = (props: HomeProps) => {
 
   return (
     <div className="home__container" ref={aboutRef}>
-      <FadeInWhenVisible>
-        <About />
-      </FadeInWhenVisible>
-      <ConceptNo1 />
-      <ConceptNo2 />
+      <About />
+      <ConceptSelector />
+      <Connection />
+      <Sources />
     </div>
   );
 };

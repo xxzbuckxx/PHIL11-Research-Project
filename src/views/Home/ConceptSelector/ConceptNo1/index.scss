@@ -4,13 +4,20 @@
   gap: 3em;
   justify-content: center;
   align-items: center;
-
-  margin-top: 10em;
   // border: 1px solid red;
 
   h1 {
     text-align: center;
+    text-decoration: underline;
     font-size: 2em;
+  }
+
+  p {
+    max-width: 75%;
+    margin: 1em auto;
+
+    font-size: 2em;
+    text-align: center;
   }
 
   &--fundamentals__container {
@@ -31,15 +38,6 @@
         width: 25%;
       }
     }
-
-  }
-
-  p {
-    max-width: 75%;
-    margin: 1em auto;
-
-    font-size: 2em;
-    text-align: center;
   }
 
   &--shirt-explanation__container {
@@ -48,7 +46,7 @@
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 4em;
+    margin: 0 2em 4em 2em;
 
     img {
       max-width: 40%;
@@ -66,19 +64,27 @@
       }
     }
   }
+}
 
-  &--class-connection__container {
-    border: 6px solid pink;
-    padding: 2em;
+@media only screen and (max-width: 630px) {
+  .conceptno1__container {
+    &--fundamentals__container {
+      flex-direction: column;
+      gap: 3em;
+      height: fit-content;
 
-    h2 {
-      font-size: 2em;
-      text-align: center;
+      img {
+        width: 40%;
+
+        &:hover {
+          width: 70%;
+        }
+      }
     }
 
-    p {
-      font-size: 2em;
+    &--shirt-explanation__container {
+      flex-direction: column;
+      gap: 5em;
     }
-
   }
 }
